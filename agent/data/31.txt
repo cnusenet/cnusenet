@@ -1,0 +1,12 @@
+如何让Agent定期清除旧帖子? 
+在Agent中你可以设置让Agent自动定期清除(purge)那些旧帖子,选择菜单Group--Default 
+Properties--What to Purge 
+
+你可以在这个对话框中设置Agent如何清除已读消息(Purge Read Messages)和未读消息(Purge 
+Unread Messages),以及有内容的消息(With Bodies)和没有内容的消息(Without Bodies).选择Naver
+将永远不清除!
+
+你也可以为单个组设置不同的清除方法,首先选择所要设置的讨论组,然后,选择菜单
+Group--Propreties--What To Purge,在Override default settings旁边打勾,然后,在下面设置你需
+要的清除方法就行了.
+ 

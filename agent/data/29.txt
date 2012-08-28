@@ -1,0 +1,57 @@
+在Agent中如何增加多语言支持? 
+ 
+
+一,增加语言:
+(1)Options--General Preferences--Languages.按Add按钮,在对话框中的Name中输入任意名称如
+Big5.按OK.
+(2)在Code Page一栏中选950,在Default charset一栏中选Big5.按OK.
+
+
+二,设置字体:
+(1)Options--Display Preferences--Fonts中,在Fonts For Languages一栏中,选择你刚刚加入的Big5
+语言.
+(2)按Variable Pitch body按钮,选择字体为Mingliu,Script一栏一定要选Big5.
+(3)选择Use the Variable Pitch body Fonts For headers,按OK.
+
+ 
+
+这回,Agent就能自动识别Big5码了.以此类推,可以增加日文,韩文等.
+
+如果新闻组服务器上的各个讨论组的语言不同(如,既有GB2312又有Big5),可以在
+Group--Properties--Language中给每个组设定不同的默认语言.
+
+注意:Group菜单下的Defaudlt Properties和Properties的区别是:
+Defaudlt Properties中的设置会影响整个新闻组服务器中的所有组!
+Properties中的设置只会影响当前组和你所选择的组!
+
+
+还有一种非标准的帖子,就是那种帖子头部的语言信息和帖子的实际内容不符的帖子,如,头部语言信息
+标称是ISO-8859-1,而实际内容是GB2312编码的简体中文(或繁体Big5),如何给这种非标准的帖子增加
+语言支持呢?步骤和上面增加Big5时一样,就拿增加对那种头部标称ISO-8859-1而实际内容是Big5的帖
+子的支持来举例,具体如下:
+
+一,增加语言:
+(1)Options--General Preferences--Languages.按Add按钮,在对话框中的Name中输入任意名称如:
+ISO-Big5.按OK.
+(2)在Code Page一栏中选1252,在Default charset一栏中选ISO-8859-1.按OK.
+
+二,设置字体:
+(1)Options--Display Preferences--Fonts中,在Fonts For Languages一栏中,选择你刚刚加入的
+ISO-Big5语言.
+(2)按Variable Pitch body按钮,选择字体为Mingliu,Script一栏一定要选Big5.
+(3)选择Use the Variable Pitch body Fonts For headers,按OK.
+
+大功告成!
+
+依此类推,其它的非标准帖子如UTF8,Ascii等都可以按上面的方法来增加对其的支持.
+
+遇到不能正常看的帖子一定要先按H键看看帖子头的语言信息,看看自己是不是已经增加了对此语言的
+支持,如果没有,那么就把它加上.到目前为止,已知的Agent不能看的帖子就只有HZ码!
+
+如果遇到Agent不能自动识别各种语言的情况,可以选择菜单Message-Language来手动改变一下语言!记
+住:Message-Language命令是很有用途的,你可以定制此命令到Agent的工具栏!
+
+其它相关文章请参看本站的关于Agent的多语言设置的另几篇文章!
+
+ 
+ 

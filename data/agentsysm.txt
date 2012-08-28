@@ -1,0 +1,499 @@
+Agent 的中文使用说明 
+
+ 
+ 
+      一. 前言
+
+      在众多的 New Reader(新闻论坛讨论信件阅读器) 应用软体中, 有许多好用
+  且功能强大的软体, 其中以 Agent 和 Virsual Access、 Gravity及 Navigator
+  、Microsoft News等新闻阅读器广受使用者所采用, 其中又以 Agent的设定较为
+  简便功能适中为大家所肯定. 是目前最受欢迎的新闻论坛作业软体.
+  四者中以 Agent较易操作, Agent 分为两种版本, 一种叫 Free Agent,是共
+  享软体 (shareware)已推出到 1.1版. 另一种为商业版, 最新的版本为 1.0B /
+  361.  由於是商业版因此必需经由供货厂商提供注册码. 新的 361已经修正 354
+  如果不设定 X-newsreader 新用户无法继续安装的问题, 直接将 email、NNTP、
+  POP3 等设好即可完成安装程序.
+
+      二. Agent 的优点
+      新闻论坛如果不采用上述软体, 也可以在连线至 DNS时, 不要进入 PPP模式
+  , 其中有一项可以直接以 telnet 进入 News Server, 在线上浏览或写信参与讨
+  论.,或以终端机模式用 tin看 News,就效率而言似乎不符合经济原则. 因为全球
+  有一万多个讨论信区, 就仅选几区, 一天也可能有上百封的讨论信, 连线的电话
+  费恐怕所费不贷... 如果玩过一般的 BBS玩家可能就知道, DOS 模式下有银版快
+  信、蓝波快信等, 把 Agent想成是这类的快信程式可能比较容易体会.
+      新闻讨论区用 Agent快信有什麽优点:
+  1.使用 Internet 网路的连线时间减短.
+  2.可离线写信、回信, 等上线後再将信件整批送出
+  3.回信不但可以贴在信区上, 也可以直接回到私人信箱.
+  4.资料整理方便快速: Agent 提供多种信件整理的方法，您可依自己的习惯整理
+
+      三. 安装与基本设定
+
+
+      Free Agent第一次安装会出现权利／义务同意书(Fort Free Agent License
+  Agreement)内容大意是说：如果您是学生、教职员、非营利团体、在家里用等等
+  可免费使用，按[Accept]按纽接受即可. 如果是 Agent商业版安装的第一画面便
+  会要求输入注册码, 否则遭拒离开安装程式.
+      第一次进入必先设定个人的网路连线相关资料：在选单中的 [Options]
+
+  3.1 Use and System Profile
+
+  ◎ User / 使用者资料
+    　　　　　　　　　　
+  (1) E-Mail Address:输入自己的电子邮件位址.如: jiaying@ms7.hinet.net
+  (2) Full Name:自己取一个名字
+      这个名字会加在信件标头的作者栏上, 如果是贴在别人信件後的回信, 则以
+  此名字当作标题头. 你可以取中文姓名或是一个比较 cute 的名号. 国内流行填
+  您喜欢的昵称或简短的座右铭. 这个栏位会出现在每一群组的信件标题里的 Au-
+  thor (作者栏).
+  (3) Organization:输入你的单位名称, 不填亦可.
+  (4) Reply Address: 回信的位址
+      一般都是填入 E-mail 帐号. 如果你有另一个其他帐号, 可以要求 NEWS 上
+  的读者可以利用这个 email 位址专门当成你私人信件的 POP server.
+  (5) News Server authorization :
+      这是因为有的 News Server会要求使用者输入帐号与密码以求确认, 但是一
+  般的情况下, 进入那一家 ISP都会被要求使用该公司的 News Server, 所以一般
+  都不填, 就算你进别家 ISP的 News Server 大都会被拒绝, 所以填也没用.
+
+  ◎ System / 系统设定
+    　　　　　　　　　
+
+  (1) News server : 「新闻主机」(News [NNTP] Sever)
+      Frote Agent 能有效率的运作, 乃基於正确的主机位址, 由於 News主机采用
+  NNTP protocal,选择正确的 NNTP Sever.原则挑自己申请网的新闻主机.当然也可
+  以设定非申请之 ISP的新闻主机, 但速度将会有明显差别. Hinet选 netnews.hi-
+  net.net,如果是 seed 的用户是选: news.seed.net.tw; 此处也可以填入该 Ser-
+  ver 位址, 如 Hinet之 168.95.195.16; 原则上填入 IP 位址的搜寻速度较快.
+  (2) Email (SMTP) Server （替您送存信的主机）
+      Hinet 填入投递的信件主机代号 (POP Server : 168.95.4.x00,例如 HiNet
+  的 Email位址为 ms7.hinet.net的信件主机代号为 168.95.4.70; SeedNET 的帐
+  户使用 tpts1.seed.net.tw, 因为 Agent也体贴的提供发 Email信件的功能.
+  (3)Title bar: Agent99G的商标会出现在每封信的标头位置, 本栏毋需设定.
+
+  ◎ Online 连线设定
+     　　　　　　　　
+      这些设定都是在「连线」与「离线」状态, 使用者仅需选择其一,Agent安装
+  时即有预设值, 选择 Online,除非使用者下达离线命令, 否则 Agent始终保持在
+  与 News Server连线状态. 对於网路资源而言将影响效率, 对於初学者而言则采
+  用 online 状态比较容易熟悉软体操作.
+      其中的设定如在尖峰时间连不上线自动尝试的次数、每次尝试重新连线的间
+  隔时间、重新连线是否要再次启动拨号网路、使用者几秒钟没有对 News Server
+  下命令时迳行离线 (offline)等; 建议等对本软体熟悉以後再尝试调整设定.
+  (注一)开启 Agent以後, 按软体操作图示上的【灯塔】强迫在 Online 状态, 不
+        管设定中是否设成 Offline状态.
+
+  ◎ Dial-Up 拨号设定
+     　　　　　　　　
+      Open dial-up connection before going online,建议这栏不要勾选, 这项
+  设定在 Agent中启动连线功能时将直接开启拨号网路, 习惯操作都是拨号上线以
+  後才会开启 Agent, 所以这功能可以不必设定. 假设是在离线阅读状态时不小心
+  按到 [online] 功能键时, 才不会直接启动拨号网路.
+      Close dial-up connection after going offline, 建议这项也不要选, 避
+  免连线状态时按到 online 灯塔图示时关闭拨号网路.
+  (注二)第一项没选, 笔者测试在连线状态按 online 仍然会启动 Win95中所设定
+        的拨号网路.
+
+  3.2 General Preferences
+
+      基本操作者尚不需更改其中预设值.
+
+  1.Navigation 设定信件阅读状态与信件指标
+  2.Message List 信件标题的显示方式件指标
+  3.Language 使用语言
+    (1) Language: English 使用英文设定方式, 不能选其他, 也没有其它项可选
+        , 其他语系可以到它的档管站台: ftp.forteinc.com里取得.
+    (2) Setting Of English:
+      (a) Character Sets:［Latin1］,不论中英文要正常发信, 请不要乱改. 依
+        一般想法应该是 ASCII比较正常, 但发出中文将出现乱码, 这是因为News
+        Server会将文件经过压缩程序以节省传输时间, Internation English 以
+        ASCII (7bits) 编码不适用於中文. (注四)
+      (b) Spell :［空白］,使用中文时要注意不要使用拼字检查
+      (c) Usenet Text Encoding: 贴上 NEWS 编码方式, 选用 7/8 Bits
+      (d) Email Text Encoding:发出电子邮件编码方式, 选用 7/8 Bits
+          至於是否采用 MIME 编码方式, 你可以自行决定.
+    (3) Fonts : 除了 fonts of language选择 English以外, 其他项都以中文字
+        型设定即可, 依自己的视力选择大小.
+  4.Confirmations、Newsrc 依内建即可.
+  5.Newscr输入外部软体的信件、群组, 信件指标等条件. 假设你就是用本软体读
+    新闻论坛, 则可关闭, 无需设定.
+  6 Mime Types: 这是一个比较特殊的功能, 如果在信件标题看到信件是有夹带档
+    案, 如文件 .txt 或压缩档 .zip 等; 可另外设定 for Win 95 的其他应用程
+    式, 例如一般图型都可以设定使用 Acdsee95,至於文件档可用 Win95 的 Not-
+    epad或是 Uedit 32 比较方便.而这些随信件携带的档案都经过编码方式, Mi-
+    me/base64 是一种 internet 上非正式标准的压缩格式, 但已经使用繁多, 例
+    如知名的 uudecode 的商业版也提供此种解压转码功能, Agent也内建.
+  7.URLs: (注三)是让你设定 WIn95中的 URL/ 资料类别将 Agent 预设成 Win95
+    的 NEWS或 EMAIL 的预定程式.
+  8.URL type: 设定所使用的 URL型别. 一般设为 HyperText Transfer protocol
+    (超文件通讯协定).
+  (注三)URL 为Uniform Resource locator资源定位器的简写, 其义为在超文件下
+        (Hypertext) 的一般文字外所使用到的 HyperLink超连结功能, 透过文件
+        内的 URL位址设定, 就可以很容易的连结到其他的 WWW、 FTP、Gopher、
+        、WAIS、TELNET或NEWS等.
+  (注四)另有 Big5.CSM 修改为 big5语系, 将下面内容剪贴为此档名即可:
+  ----------------------------------------------------------------------
+  Name: BIG5
+  charset: BIG5, us-ascii
+  codepage: 437
+
+  #       (The previous line must be blank.)
+  #
+  #       This table maps between Windows code page 1252 (Latin1)
+  #       and theMIME ISO-8859-1 charset.
+  #
+  #       Since code page 1252 and ISO-8859-1 are equivalent, the
+  #       and the table is empty.
+
+
+
+Bye bye!
+  Liu
+
+ * SeM. 2.25 UNREG * Astronauts are out to launch.
+ ----------------------------------------------------------------------
+
+  3.3 Display Preferences
+
+      大部份皆为主画面与信件显示的方式.
+
+  1.Main Windows: 设定主画面所要显示的视窗工具等.
+  2.Browsers: 设定信件内容每次移动的行数 (row), 与是否显示作者的 Email.
+  3.Messages: 设定 TAB键跳格数及回信引言 (quote)的提示符号, 一般采用">"
+    符号. 经由此设定後信件内容的引言部份将可以不同的颜色区分, 利於阅览.
+    其中要注意的是 how to display URLs, 此部份因为中文所使用的双位元码的
+    第一个位元用到图型码, 所以会造成 Agent的判断错误, 因此能够不选又尽量
+    不要用, 这个功能可以把 URL以底线或是高亮度的方式显示.
+  4.Fonts & Colors: 设定信件标题、内容及印表所使用的字型. 另外如标题已读
+    与未读的颜色设定等.
+
+  3.4 Posting Preferences
+
+      本设定栏为设定发信或回信的功能.
+
+  1.General(一般设定):
+    (1) Line length:作者发信设定信件的边界
+    (2) Quoted-Printable是一种称为 QP 编码方式, 如果你回信的人是位於 BBS
+        站的 USER,最好不要采用这种方式, 免的收信人无法解码. 另外两项功能
+        是确认收信人的 Email位址.
+    (3) Quting引言采用方式: 例如回信时要拷贝原信内容, 每行都加上一个 ">"
+        符号, 你也可以用 NEWS 上比较通用的 ">:",如此你所写的信与原作者的
+        信件较易区分.
+  2.Signatures:签名列
+    使用者可以自定自己的签名列 Target line, 此部份将加在你的发表信件最後
+    , 和一般的 Mail 软体功能相同. 首先要 Add一个你自定的名称, 如 scan,接
+    著在 default视窗选则所要采用的预设是 scan,下方的视窗就是你的签名列的
+    内容. 建议不要设太多行, 以免浪费网路资源.
+  3.introduction: 用於设定回信的标头行所要引用的部份, 例如你所写回信的内
+    容的标头 (第一行) 会显示 "於15 Jan 1997 16:38:14 GMT,(玮儿) 写道:"
+    像这样的方式, 你就必需设成 "於%date%, %from% 写道:\n",诸如此类功能等
+    . 其所采用的简写代表符号请看Help. 上例中「%date」 会拷贝原作者发信件
+    的日期, 「%from」 会拷贝出原作者的 real name, 「\n」是换行等.
+  4.Spelling: 拼字检查, 由於使用於中文环境, 因此避免使用.
+
+      四. 第一次操作
+
+
+      第一次上线前, 我们必需了解所谓的 Usernet message 与 Email message
+  的意义, 所谓 Usernet的意思是新闻论坛, 你所贴上去的信是放在讨论区中, 全
+  世界的所有人都可以看的到, 如果你发出的是 Email message, 将会将贴出的文
+  章发给收信人, 直接传到他的 SMTP Server邮局上, 别的操作者是看不到的.
+      在操作图示上有一个像［灯塔］的装置, 就是当你与你的网路服务公司 ISP
+  连上线後启动 Agent, 要连线到 Usernet NEWS !!
+      最快的 News Server (NNTP server)为设置你所申请的 ISP公司的内部新闻
+  主机, 取资料的时效为最短距离，假设是学校使用人数过多, 也会有速度过慢的
+  现象, 此时可以设定到别台新闻主机, 而这个主机必需是公开使用, 不限制使用
+  者的 ID 和 Passwrod.
+
+  4.1 第一次上线的准备
+
+     假设您已经连上各网站的 Internet任一主机，我们要先抓取完整的『信区列
+  表』(GROUP)回来：在 MENU 的［ONLINE］ 选单中: Get New Groups, 这个动作
+  因第一次抓所有的一万多个信区，所以可能会花好几分钟来传资料.
+     过了几个月後，也许您的 News Server 的信区数目或许会有所增减，因为全
+  世界每天都有可能更新. 目前已有一万多的讨论区, 我们称为 Group. 一段时间
+  更新一下：
+     [Online] -> [Refresh Groups List]
+
+  (注五)何谓: 信区 GROUP
+      当我们做了第一次上线, 取回所有的 Group, 将近一万多个, 如何由标题知
+  道它所代表的意义. 以列出一部份相关讯息:
+      tw.xxx.xxx      与 Taiwan 台湾的相关新闻论坛开头表示式
+      tw.bbs.xxx      台湾 Internet BBS 的相关新闻论坛, 大部份皆为 TAnet
+                      学术网路所建立
+      tw.bbs.comp.mswindows.win95 为电脑类与 WIN95相关讨论群
+      au.sex          澳洲 Internet 的相关新闻论坛
+         comp.xxx.xxx computer电脑方面新闻论坛
+         news.xxx.xxx 与 Usenet 本身相关新闻论坛
+         rec.xxx.xxx  recreation  娱乐方面新闻论坛
+         sci.xxx.xxx  science 科学知识方面新闻论坛
+         soc.xxx.xxx  society 社会问题方面新闻论坛....依此类推
+
+  4.2 挑选信区 (订阅讨论群组)
+
+      第一次上线所抓取的信区名称将会出现在 group视窗中, 由於信区实在太多
+  , 只得挑选一部份, 将滑鼠移往所要选取的信区，按滑鼠右键, 然後选要「订阅
+  」[Subscribe] 这一项.(或图示第14个「报纸式样」的按纽).这个动作做完後,
+  你所取选取要订阅的 Group名称上将会有一个「报纸图案」.
+      这个选择方式一直重覆到你所想要定阅的群组全部选完以後. 关於信区的挑
+  选时会遇到一个操作上的问题, 一万多个讨论群如何作业, 一个技巧是使用「画
+  面下信区切换」功能; 在主画面的左上信区视窗的显示棒 (title bar)，可以循
+  环切换到《All Groups》、《Subscribed Groups》、《New Groups》 视窗.
+      若挑选订阅的信区已经完成, 只要让视窗保留在《Subscribed Groups》 即
+  可.
+
+  4.3 抓取订阅信区内的SAMPLE
+
+      Agent 的信件处理分为两个阶段, 第一先抓取信件的标题 (Header),也就是
+  在主画面的右上视窗位置; 其次再选择抓取信件的内容.
+      刚开始建立的订阅区一定是空的. ，第一次就是要抓取信件, 由於每一台
+  NNTP Server 都会保留大约一个月的信件, 假设我们直接抓取订阅区的信件, 可
+  能会抓到上千封信件的标头; 较恰当的作业方式应该是先抓取自由设定样本标题
+  , [On line] -> [Sample headers From Selected group],可以先选五十封左右
+  , 应该看到主画面的最下一行状态列显示从新闻主机该区所有信件数正在抓取五
+  十封的讯息.
+      抓完信件标题以後, 你有权选择那些标题的内容要看, 没有兴趣的标题你可
+  以略去不看. 当你选好你所感兴趣的标题, 再将所选的信件内容下传, 这个动作
+  称为『预设标记』, 滑鼠在左上视窗按选某一个信区, 再将滑鼠移往右上视窗的
+  第一封信的标题, 接著就可以用[↑]、[↓]键移动於上下封信之间, 至你所想要
+  看内容的信时按  [M] 键或是工具列上倒数第七个图示“↓＂(Mark for Retri-
+  val)皆可.
+      要抓取已经「标示」(Marked)的信件内容时, 只要选工具列上的第三个有闪
+  电的“↓＂图示(Get marked message bodies抓取已标示信件内容) 即可, 接著
+  你就会看到信件很快的存入你的电脑中.
+
+  (注六)将文章标头(header)及内容(body)同时抓取的设定
+        选单中[Group]->[Default Properties] 按选以後将出现『Default Pro-
+        perties for All Groups』设定画面, 选取「Retrieving」该项:
+        (1) Retrieve bodies for all new articles 将所有新的文章标题(hea-
+            der连内容(body)一起抓回来.
+        (2) Limit number of headers retrieved per session to [xxx]
+            每次抓新闻时，每个新闻群内的新文章数目的最高限额, 若设此数字
+            为500,则至多只抓取新的 500封.
+        (3) 当选 [Get New Headers in Subscribed Groups] 就可以把信件标题
+            与内容同时取回.
+        (4) 这样的缺点就是避免不了抓了一些不必要的垃圾信.
+
+      五. 取得新信
+
+
+  5.1 删除没有参考价值的信
+
+      当你在离线状态下看完信件内容後, 保留一部份有参考价值的信, 部份的信
+  件不管是否有内容,(在标题标记时没有兴趣标题的内容你并没有标记传回, 但信
+  件的标题仍然存在),滑鼠在右上视窗按选某一个信件无需保留时直接按 [DEL]键
+  即可删除, 但这些删除的信件在下一次连线重新抓取新信标题时将再次传回, A-
+  gent把信区内与 NNTP Server做比较, 把电脑内缺少的信都当成「新信」.
+
+  5.2 信件指标的设定
+
+      在连线状态下, 抓回新信, 未读过的信件在右上方标题视窗内是以红色标示
+  ( 这个设定可以在 display reference中修改);离线後开始阅读, 同时看过部份
+  没有参考价值的信件, 无需保留, 直接删除; 在下次连线时前必需将信件指标设
+  到最後一次连线的参考位置. [group]->[Mark all group read], Agent 会以此
+  指标为参考值, 下次连线所抓的新信就不会连已经删除的信再次抓回!
+
+  5.3 抓取新信
+
+      在 Agent设定两种方式抓取新的信件, 一是抓取所有已设定订阅的讨论信区
+  , 工具列的第一个图示带有闪电的“报纸样式＂(Get New Headers in Subscib-
+  ed groups). 其次是滑鼠指标到某一信区, 只抓取该信区的新信, 工具列的第二
+  个图示带有闪电的“报纸样式＂(Get New Headers in Selected group).
+
+      六、视窗调整功能
+
+
+      在 [Options]->[Windows Layout]可以选用各种显示方式.,信区 (Group)、
+  标题(Header/title)与内容(Message Body)三个视窗可以随个人喜好变动. 设定
+  完成後存档:[Options]->[Save as default Windows Layout].
+
+  6.1 各视窗栏宽配置
+
+      信区 (Group)、标题(Header/title)与内容(Message Body)三个视窗中间的
+  骑缝线, 如果将滑鼠移至此位置时, 将会出现调整标示“←│→＂, 使用者可依
+  自己的喜好设定视窗大小, 一般的 Group名称无须占用太大的空间, 可以将标题
+  视窗的开至稍大. 便可获得较佳的视野, 同样的信件内容 BODY 的部份亦可如此
+  设定.设定完成後也需存档:[Save as default Windows Layout].
+
+  6.2 信件内容的设定
+
+      信件显示的样式有两种, 一是显示该信件的所有资讯, 称为信件的标头, H-
+  ead of message body,其资讯如下:
+  ----------------------------------------------------------------------
+  Path: news.cis.nctu.edu.tw!usenet 发出该信的原始站与转信站
+  From: free@FTP.site.com.ca (Free FTP Site)显示发信人的帐号、Real Name
+  Newsgroups: tw.crack.code 信区名称
+  Subject: Re: POPiT Crack Code Plz 信件主题
+  Date: Fri, 17 Jan 1997 01:24:51 GMT 发信日期与时间
+  Organization: Computer & Information Science, NCTU, Taiwan显示组织名称
+  Lines: 10 信件行数
+  Message-ID:  信件标号
+  NNTP-Posting-Host: @168.95.214.203                 发信站台
+  Mime-Version: 1.0                                  MIME编码版本
+  Content-Type: text/plain; charset=BIG5             字元集
+  Content-Transfer-Encoding: 8bit                    编码方式
+  X-Newsreader: Forte Agent .99g/32.326              使用软体名称
+  ----------------------------------------------------------------------
+      这些资料也可以选择不要显示, 否则每封信都要用上下卷轴相当麻烦, 只要
+  按 [H]键即可选择是否要显示这些资料. 此操作的另一个方式: [Message]->[S-
+  how All header fields].
+
+  6.3 标题排列方式
+
+      标题 (Subject)若有「┼」的五角符号，代表与本主题的信件文章都被「摺
+  叠」起来, 可能包含数封信件, 代表有人发出第一封信以後, 後续的使用者对於
+  该信件文张提出自己看法或是回答, 假设有两个对该封信提出回信(Replay)就有
+  接续的两封信摺叠其中, 则第一封信会出现「+2」的符号.
+      要看这些摺叠起来的信件可以按 [+]键, 将会自动解开(expand), 但只有第
+  一篇文章的标题、作者会显示, 其它与本信的相关回信文章都都接续其後，仅显
+  示作者的 Real Name.(文章的标题则为 Re:....),解开的功能称为:expand Thr-
+  eads Initially Collapsed; 但动作是比较麻烦; 这个功能，可以设定成只要有
+  後续的新信就自动解开; 方法如下：
+      [Options]->[General Preferences]->[Message List]设定「Autimatic E-
+  xpand Threads containing new messages]将其打勾即可.
+
+
+      七、写信与回信
+
+
+  7.1 发表新信
+
+      在某个信区要发表文章可选用下列三种操作方式: 工具列上第五个 (信件有
+  个星号) 的图示, 或[Post]->[New Usernet Message] 或按 [P]快速键皆可.?
+      想回覆某论坛某议题的信件：
+          Post \ Follow Up Article 或按 [Post Follow Up Article] 快速钮.? 信件各栏位的内容说明如下:
+  (1)Newsgroups:会将滑鼠所圈选的所在 group名称备份上来, 如“tw.bbs.sci.
+     destiny-prediction＂,如果一封信发到多个 Group, 各 newsgroup 之间插
+     入个逗号，不可有空白.
+  (2)Subject:信件主题, 写入你信件内容有关的题目
+  (3)Email-To: 顺便将本信发给某人
+  (4)Text: 以下视窗即信件内容 (BODY)
+  (5)Attachment: 携带档案 (另章讨论)
+      写好文章後按 [Alt][V]或 [Message]->[Save] 就好了. 等待连线後再送出
+
+  7.2 回信
+
+      要在 USERNET上回一封别人的文章, 此文章将摺叠在该标题之内, 可选用方
+  式: 工具列上第六个 (信件RE有个星号) 的图示(Post follow up message), 或
+  [Post]->[Follow Uo Usernet Message] 或按 [F]快速键皆可. 信件各栏位的内
+  容说明如下:
+  (1)Newsgroups:同上
+  (2)Subject:信件主题, 增列"RE:原信件标题"
+  (3)Email-To: (4)Text: (5)Attachment: 同上. 写好文章後按 [Alt][V]存档.
+
+  7.3 回一封 Email信件
+      有时我们希望回信给 USERNET别人的文章, 但不想发表在 group里, 此文章
+  将会以 Email方式寄到原发信人的信箱. 选用工具列上第八个 (信封RE有个星号
+  ) 的图示(Post replay via Email),或 [R]键, 或 [Post]->[Replay via email
+  ] .内容说明如下:
+  (1)To: 收信人, Agent会自动备份原信件的发信人
+  (2)Subject:信件主题, 增列"RE:原信件标题"
+  (3)CC: 本封信要同时拷贝给另外的人, 可写上其 Email
+  (4)Text: (5)Attachment:同上. 写好文章後按 [Alt][V]存档.
+
+  7.4 送出信件
+
+      如果正在连线状态下, 存档未做下可以直接送出信件, [Alt][S]或[message
+  ]->[Send Now] (即时送出).
+      如果在离线状态下, 可选[Alt][L]或[Message]->[Send Later] (待命输出)
+  , 信件标题出现「向上箭头」符号, 下次连线时，选 [Online]->[Post Usernet
+  or Email Message] 就将所有待命输出的信件一起送出.
+      所有送出的信件, 皆会备份在你的资料库中, [Windows]->[Open Out Box],
+  成功送出的信件以笑脸显示, 失败则以哭的脸显示, 失败的信件仍可再次传送.
+
+      八、信件带档
+
+
+      在网路新闻论坛或使用 Email信件携带档案是一个很普遍的功能, 以下简介
+  说明其操作方式:
+
+  8.1 E-mail 信件携带档案
+
+      E-mail携带的档案的类型并无限制, 由於 Email是属於一种文字格式, 虽然
+  有经由类 QP 编码方式, 仍以文字型式以节省网路资源, 传递的档案类型不定,
+  Internet主机间所能传递也仅仅是文字方式, 因此要寄:EXE、COM、DOC、ZIP 等
+  二进位档案 (binary file), 可使用利用 UUencode 来转换成文字型式, 使得E-
+  mail携带档案传送於网际之间. Agent 同时可以处理两种编码方式, MIME与 Uu-
+  encode, 信件的 [Attachment] 选择项, 就是携带档案, 在该选项选取, 会出现
+  「档案内容视窗」, 选 [ADD], 即可选择任一目录中的档案, 选取欲携带的档案
+  後, 此视窗中将会出现档案名称, 这个动作可以重覆, 义即同时携带多个档案.
+  按下[OK]後, 所选的档案名将显示於在信件的标头.
+
+  8.2 解开信件带档
+
+      Agent 接收到网路论坛信件中携带档案者, Thread状态列的信件图样会以黄
+  色显示, 有别於一般信件的白色. 标题列右会有0/n 、 1/n 、 2/n...编号，以
+  标示是否将档案切分为数封.
+
+  (1) 档案名称:
+          滑鼠选取信件, 该携带的档案将会显示於信件内容BODY的最下列, 显示
+      档名与大小，滑鼠移到档名时按两下, 直接开启「Message Index」 视窗;
+      Agent 会自动解开信件所携带的 uuencode 编码的档案. 你可以将之存档:
+      选[save]按钮, 目录可自定, 或预定的 Agent下的\temp 目录.
+
+  (2) Launch 的功能
+          Launch 的意义是代表 Agent依「副档名」的属性直接启动 Win95 的相
+      关的程式去解读或执行这个档案, 例如 .ZIP的档案可以使用 WINZIP直接执
+      行, .JPG或 .GIF 可以使用 ACDSEE95直接浏览. 这个设定称为“MIME TYPE
+      ＂, [General Preference]->[MIME TYPES],例如 image/gif 的格式可设定
+      使用 ACDSEE95 来浏览, 下方的视窗就是在设定 ACDSEE95 执行程式所在的
+      的目录. 同理可设定 compress/zip 给 WinZIP95.
+
+  (3) 信件档案合并
+          标题列右会有0/n 、 1/n 、 2/…的编号, 表示该信件非独立档案, 乃
+      是携带档由几封信所组成, 因此必须在信区中找出相关的所有信件; 这个动
+      作 Agent会自动设定, 你会看到这封信件标题前一个像 "梯形" 的符号, 你
+      无法直接取内容, 必需 [Message]->[Join Sections] 开启「合并」视窗後
+      , 即可将数个档案合并成一封信, 然後再下传!
+
+      九、资料整理
+
+
+  9.1 旧信整理
+
+      当你的信件一直取回的同时, 旧有的信件一直保存在硬碟中; 这是一个有隐
+  忧的问题. 难免有一天你会发觉你接了十几个信区, 结果硬碟容量急速衰减中,
+  Agent 提供一个自动整理信件的功能, [Group]->[Default Properties] 中的 [
+  What to Purge], 你有三种选择方式, 「最小」「低级」「中级」「最高」四种
+  选项, 如果你不在乎你硬碟的大小, 你尽可以选择[High]. 如果你小小的容量承
+  受不起 NEWS 信件的每天轰炸, 你大可以选择 [Minimal], 其中内容如: [Purge
+  read message] 的 without bodies 是仅有 "标题" 没 "内容" 的信, 大可直接
+  杀掉, With bodies的信你也可以自行设定保留三十天左右.
+      [Group]->[Default Properties] 中的 [When to Purge]让你决定是在抓新
+  的信时[When retrieving new headers] 就依上述的设定重整, 或是在离开 Ag-
+  ent [When closing Agent]时才做这些动作. 一般设定在离开的时候, 以免有些
+  遗珠之憾.
+      若是有些文章认为值得收藏者, 可以直接在信件内容时存成文字档, [File]
+  ->[Save Message As] , 就会出现档案处理视窗, 你不用一封存成一个档案, 可
+  以使用 "加入" (join)的方式, 这样第二篇文章会接续到原有档案之後, 义即 [
+  Append to existing] 要勾选.
+
+  9.2 信件永久保存
+
+      NEWS提供我们丰富的资讯, 也同时无时不填塞硬碟空间, 如果依照上述的处
+  理方法, 固然可以自动删除旧信, 但一些有保存价值的信不想存成文字档, 希望
+  保留在该信区中, Agent 也想到这种需求, 在信件 Header 时, [Message]-> [
+  Keep] 即可在标题加上防删除锁, 在未解除前, 这封信对 [Del]将有免疫能力,
+  你按也不会作用, 除非你再做一次相同的动作解除!
+
+
+                                               
+      十、新版资料 
+
+
+      原文摘录自 Agent 1.0 Build 354 之 Readme.txt 档 Release Note一节,
+  若需要完整的英文说明, 请各位自行参阅此档内容.
+      本文由 Chen Tai-Wei[陈泰维] 所翻译, 欢迎非商业性转载或收录. 若有任
+  何问题请不吝赐教, 直接 Follow-up 或 E-Mail皆可, 谢谢!
+      在此强调并补充一些事情:
+  1.此为 Beta 测试版, 是给 Beta Tester评估使用的, 正常情况下并不会外流 (
+    当然, 这得感谢某些热心人仕的帮忙),所以使用它您必须自行负担风险.
+  2.若您拿到的是附有 Install Wizard 程式的版本, 且您执行了这个安装程式,
+    将其安装到另一个新目录, 也就是使得此版 Agent犹如第一次新的安装情况般
+    , 则在执行时会出现讯息表示它是第一次执行, 且无法进入 News Server 和
+    E-mail Server.要消除这个 Bug, 您必须复制旧有的 AGENT.INI档案到您安装
+    的目录下便可. 若您是使用升级安装, 也就是安装在原来的 Agent目录下, 则
+    便没有这个问题.
+  3.若您拿到的是只有三个档的程式版本 (AGENT.EXE, AGENT.HLP, README.TXT),
+    则只要将这三个档复制并盖过您原本的 Agent.99g目录下之档案便可. 也就是
+    将此版当作一个升级版来使用.
+ 

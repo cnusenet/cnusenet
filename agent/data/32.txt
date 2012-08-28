@@ -1,0 +1,16 @@
+在Agent中打开附件的几种方法! 
+一.在有附件的帖子中按L键,即可打开附件.
+
+二.在有附件的帖子中选择菜单File--Launch Attachment(打开附件),即可打开附件.
+
+三.当帖子有多个附件时,在附件上单击鼠标右键,在快捷菜单中可以选择Launch Attachment(打开附件)
+,Copy Attachment(拷贝附件),save Attachment(保存附件),Save All Attachment(保存所有附件)
+,Delete Save Attachment(删除保存的附件),还有Index,index就是对整个帖子进行解码,会出现一个
+对话框,显示帖子的详细资料,用index命令还可以解决Agent在读一些长帖子时中文不能换行的问题,可
+以在index对话框中选择[body]然后按Launch按钮,即可在外部文本编辑器中打开帖子的正文,详细情况
+请看本站文章"如何解决Agent对中文不能自动换行的问题?"
+
+四.可以指定用双击的方法来打开附件,这样在Agent中启动多个附件比较方便一些,设置方法如下:
+
+选择Group--Default Properties--Receive Files(附件接收),在Double-Clicking Launch 
+Attachments(双击打开附件)旁打勾!并按OK确定就可以了,这样就可以在附件上双击打开附件了!

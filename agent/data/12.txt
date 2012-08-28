@@ -1,0 +1,16 @@
+如何一次性的将帖子标题和内容一起接收下来?  
+选择所要接收标题和内容的讨论组,单击右键,在快捷菜单中选择Properties(属性),然后,选择Retrieve(接收)标签 
+ 
+ Override default settings和Retrieve bodies for all new message打勾
+
+按照图中红框内的设置并确定退出就行了.下次Agent上线接收新帖子时,会把这个组的帖子标题和帖子内容一起下载!
+
+如果想一次性接收所有组的标题和内容,可以在菜单Group--Default Properties(缺省属性)的Retrieve标签页中进行上述设置!
+
+ 
+
+注意:
+Group菜单下的Defaudlt Properties和Properties的区别是:
+Defaudlt Properties中的设置会影响整个新闻组服务器中的所有组!
+Properties中的设置只会影响当前组和你所选择的组!
+ 

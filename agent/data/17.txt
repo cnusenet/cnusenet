@@ -1,0 +1,29 @@
+往新闻组发贴应该选择什么样的编码放式和字符集? 
+新闻组最早流行的编码方式是UUencoded编码,但这种编码现在已经逐渐被淘汰了,取而代之
+的是更为优秀的MIME编码,MIME编码已经是现在的Internet上的最通用的编码!
+
+但是现在的一些很老的服务器(主要是国外的)仍然只支持古老的UUencoded,所以现在的新闻
+组软件也都在"向后兼容"基本上都同时支持UUendoded和MIME.
+
+在Agent中如果发送中文标准的发送方式应该是:
+
+MIME标题+MIME Base64编码+GB2312字符集
+
+Agent的help文件也推荐发送双字节消息使用编码,因为,新闻组是互相转信的,国外的一些服
+务器并不支持8bit的汉字,如果不进行MIME编码,消息转到这些不支持8bit的服务器上会造成
+不可恢复的乱码!
+
+但是...现在国内的新闻组根本就不和internet上的新闻组服务器转信,而国内的新闻组服务
+器都是支持8bit汉字的,而且如果采用MIME编码,Gravity的用户阅读起来非常的麻烦(因为
+Gravity不能自动转换MIME编码,这是它的最大缺陷).所以,在国内的新闻组发送消息采用下
+面的搭配就没问题了:
+
+非MIME标题+MIME 8bit(即不进行任何编码)+GB2312字符集
+
+在Agent中选择Options--General Preperences--Languages
+
+Send Email As,Email Text,选项是针对用Agent发送email的编码和字符集设置,可以放心的
+使用MIME编码.
+
+Send Usenet As和Usenet Text,选项是用Agent向新闻组发送帖子时的设置.
+ 

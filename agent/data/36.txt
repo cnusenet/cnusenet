@@ -1,0 +1,59 @@
+Newsrc的输入和输出. 
+Newsrc简单的说就是讨论组列表,但它又不仅仅是讨论组列表,Newsrc文件中还包括其它信息,比如,在
+Newsrc文件输出时的讨论组订阅信息,还有Newsrc文件在输出时的帖子接收情况等等.Agent容许我们在
+输入Newsrc文件时,选择那些信息输入,那些信息不输入.我们可以充分的利用Agent提供给我们的这一
+功能,实现在不同的电脑之间以及和其他人共享讨论组列表!
+
+Newsrc的输出:
+
+在Agent主窗口选择菜单File--Newsrc--Export... 
+ 
+输出讨论组列表(Newsrc文件).
+
+Newsrc文件的输入:
+
+输出Newsrc以后,我们就可以把它带到任何地方,输入其它电脑中的Agent中,也可以输入到自己电脑中
+的其它Agent中(有的服务器讨论组多达数万,如果你同时用多个Agent上这些大的服务器,可以利用
+Newsrc文件同其它的Agent实现共享,这样就可以完全避免重复下载巨大的讨论组列表)
+
+在Agent主窗口选择菜单File--Newsrc--Import... 
+
+Update retrieved message counts:
+
+将Newsrc文件中的"已接收帖子"的统计信息输入并更新当前的Agent(也就是在Newsrc文件输出时,已经
+从服务器接收了那些帖子).选择这个选项输入后,你不会再接收Newsrc文件中已经记录的帖子,而只会
+接收自Newsrc文件输出后发到服务器上的帖子!
+
+万千网友四季青就是在家中和单位两台电脑中用Agent上新闻组的,但两台电脑怎样进行同步而不重复
+下载已经接收的帖子呢!他原来用的办法是利用Agent的按照日期取样的功能,但Agent在按照日期取样
+时会把服务器上的所有帖子下载然后再进行过滤,速度非常慢,于是四季青便提出了这个问题,最后是流
+星99提供了用输入Newsrc这个技巧来解决两台电脑之间的同步问题!原来大多数人都只知道Newsrc可以
+在不同Agent之间来共享讨论组列表,而现在我们知道了它还可以在不同的Agent之间实现同步!
+
+Mark messages read only:
+
+当输入Newsrc时,如果当前Agent中的帖子在Newsrc文件中已经有接收记录了,Agent会将这些已经记录
+在案的帖子全部标记为"已读",而Newsrc文件中没有接收记录的那些帖子,Agent会将它们标记为"未读
+"(不管它们在当前的Agent中是什么状态).如果你选择了这个选项,那么Agent只会标记那些有接收记录
+的帖子"已读",而不对那些没有接收记录的帖子做"未读"操作.
+
+Update List of subscribed groups:
+
+输入Newsrc文件中的订阅的组信息并更新当前Agent.
+
+Add New Groups:
+
+输入Newsrc文件中新增加的讨论组信息.
+
+What to Do With Extinct Groups:
+
+对在当前Agent中已经不存在的讨论组做何处理.
+
+ 
+
+大家现在应该知道了,Agent的Newsrc的输入输出功能是多么的强大!多么的灵活!
+
+充分的利用Agent的Newsrc功能吧!Good luck Again!
+
+ 
+ 

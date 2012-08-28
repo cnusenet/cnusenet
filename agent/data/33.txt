@@ -1,0 +1,13 @@
+如何解决打开一些txt和html附件时全是"?"的问题? 
+有些附件中的txt文件和html文件是用西文字符来进行编码的,而你的Agent的默认语言是GB2312,所以,
+Agent在启动附件时也是用GB2312来进行解码的,字符集错误所以造成txt,html文件全是"?",遇到这种
+情况可以把txt或html文件先关闭,然后在Agent中选择菜单Message-Language,在语言下拉菜单中选择
+ISO-8859-1或者Ascii等基于西文字符设置的语言,然后再重新打开附件就正常了.
+
+要注意的是,你不要设置"Agent自动保存附件,而且保存后删除附件"这两个选择!因为被保存的是错误
+解码后的文件,而又把源文件删除了!
+
+这两个选项可以在菜单Group--Default Properties--Receive Files中设置,确定Save Attachments 
+Automatically(自动保存附件)和After Saving An Attachment,Remove it from the message(保存附
+件以后删除消息中的源附件)这两个选项没有选择!
+ 

@@ -1,0 +1,15 @@
+如何解决当回复主题改变时,Agent会另开新讨论串(线索)的问题? 
+细心的网友会发现,当回复的帖子改变主题时,Agent会新开一个讨论串,很不方便.其实,这是可以解决
+的.按照下面的方法:
+
+在Agent主窗口中选择Options--General Preperences--Message List
+
+在Threadin里去掉Enable threading by subject和Start a New thread when a follow-up subject 
+changes上面的两个勾 
+
+按OK确定就行了!
+
+以后Agent会按照帖子的References域来组合讨论串,当回复主题改变时也不会新开讨论串了!
+
+ 
+ 

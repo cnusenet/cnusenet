@@ -1,0 +1,36 @@
+如何撰写,回复,发送帖子? 
+在Agent中选择菜单Post--New Usenet Message或按P键,即可打开撰写新消息窗口.
+
+在Newsgroups域会自动填入你当前所在的新闻组,如果想向多个组同时发贴,可以手工输入组
+名,中间用逗号(半角)隔开!
+
+在Subject域输入帖子的主题!
+
+如果你还想在向新闻组发送帖子的同时,再发送一个拷贝给另一个人,可以在Email To一栏输
+入email地址.
+
+按Attachments按钮可以增加附件.
+
+在Text区域你就可以输入帖子的正文了.
+
+写好帖子后,可以选择菜单Message--Send Now(立即发送)或Send Later(稍候发送).选择
+Send Later(稍候发送)时,帖子会保存到Agent的Outbox中,可以选择菜单Window--Open 
+Outbox来对未发出的邮件进行编辑修改,只要双击消息标题就行了! 
+
+ 
+
+回复消息:选择要回复的消息,然后选择菜单Post--Follow-up Usenet Message或按F键,即可
+打开撰写窗口,回复的组和主题会自动填好的,直接在Text区域撰写消息正文就可以了,写好
+后,可以选择菜单Message--Send Now(立即发送)或Send Later(稍候发送).
+
+如果想回复作者本人,可以选择菜单Post--Raply Via Email或按R键即可打开撰写窗口,
+email地址和主题会自动填好,在Text区域撰写消息正文,写好后可以选择菜单
+Message--Send Now(立即发送)或Send Later(稍候发送).
+
+ 
+
+发送消息:连上Internet后,在Agent中选择菜单Online--Post Usenet And Email Messages,
+就可以将保存在Outbox中的消息发送出去!你可以打开Outbox查看发送状态.
+
+ 
+ 

@@ -1,0 +1,23 @@
+如何过滤一稿多投的帖子?
+新闻组中对讨厌的就是一稿多投了!即那种一封相同的帖子同时发了多个组!这种帖子即浪费
+了我们的金钱又浪费了我们的时间!幸运的是在Agent中,我们可以轻而易举的把这种帖子过
+滤掉!方法如下:
+
+在Agent中选择菜单Group--Default Properties(缺省属性),并选择Crosspost标签页,如图
+一:
+
+Enable crosspost checking打勾并选择Skip the header(do not retrieve it) 并在
+Detect crossposted messages by:里选Subject,author,date and lines
+
+按照图中设置即可过滤一稿多投的帖子了!下次再碰到这种一稿多投的帖子,Agent会自动过
+滤的,你只会在第一组中收到帖子,在后面的组中都将被过滤掉!
+
+你也可以在个别的组中应用这一过滤或终止这一过滤!可以通过右键单击组名,选择
+Properties(属性)设置.
+
+ 
+
+注意:
+Group菜单下的Defaudlt Properties和Properties的区别是:
+Defaudlt Properties中的设置会影响整个新闻组服务器中的所有组!
+Properties中的设置只会影响当前组和你所选择的组!

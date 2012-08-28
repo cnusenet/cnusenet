@@ -1,0 +1,11 @@
+为什么我发出的带附件的帖子,附件和正文会分成两个帖子? 
+请按照下面中设置,即可解决发送带附件的帖子时,附件和正文分成两贴的问题:
+
+ 
+
+选择Send Files 里去掉Include attachment filename in subject和Send Text as 
+preface section的勾
+ 
+
+安装图中所述,把红框中的两个选项前的勾去掉并按OK确定!这样就解决了发送带附件的帖子
+时附件和帖子分开成为两个帖子的问题!

@@ -1,0 +1,67 @@
+如何制作回复消息的模板? 
+现在就动手做一个有特色的回复消息模板吧!呵呵,Agent默认的那个有些太没个性了:
+
+On 22 Jul 2000 14:25:32 +0800, 小得味 <xds7788@sina.com> wrote: 
+
+  
+
+以下摘录几个万千网友的回复模板:
+
+海飞丝的:
+(有点儿抬杠的意思)我说你们不信，看 20 May 2000 06:10:11 +0800 哈哈儿 
+<cmnewsmail#cmmail.com@> 发话了:
+
+四季青的:
+(是最罗嗦的一个)LaoCui于3 May 2000 16:47:25 +0800时，在“Re:Agent,太麻烦了,我已失去信心”
+的文章里提到:
+
+青青草:(比四季青还要罗嗦)
+251314 <my2ky@yeah.net>于23 Jun 2000 01:43:58 +0800时,在Internet.Newsgroup.Agent 组中回复
+“Re:试验了agent2小时”的文章里提到:
+
+251314的:
+于Wed, 28 Jun 2000 18:44:49 +0800时观摩了§LaoCui§ 的大作，曰：
+
+错误的:(换的比较勤一些)
+1.选自 "流星99" 的惊天地、泣鬼神之作:
+2.☆☆☆☆☆
+【选自"四季青 <sijiqing@home.com>"的成名作】
+★★★★★
+
+老妞:(有点儿像讲故事)
+就在楼上，有位〖傻兄〗在杰作《Re:
+老妞有关于Agent的问题！各位Agent高手请跟贴！》中写道：
+
+ 
+
+现在动手,选择菜单Options--Posting Properties--Introductions在下面的文本框中来定制你的模板
+吧:
+
+有Followup usenet message(回复新闻组消息模板)
+有Email reply to usenet message(回复作者email模板)
+有Forwarded usenet message(转发新闻组消息模板)
+有Reply to email(回复email模板)(如果你不用Agent收发email,可以不做这个模板)
+有Forwarded email(转发email模板)(如果你不用Agent收发email,可以不做这个模板)
+
+以下是制作模板常用的一些参数:
+
+%Date% 代表原帖的日期
+
+%From% 代表原贴的作者和email地址
+
+%Full-Name% 代表原贴的作者完整姓名(不包括email地址)
+
+%Subject% 代表原贴的主题
+
+%Message-Id% 代表原贴的消息ID.
+
+%Lines% 代表原贴行数.
+
+%Newsgroups% 代表原贴所在的讨论组.
+
+\n 代表加入一个回车.
+
+这些都是常用的,足够定制出自己的消息模板了:)
+
+ 
+ 

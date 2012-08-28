@@ -1,0 +1,51 @@
+在Agent中多语言的设置问题一
+ 
+你说的big5的问题可以如下解决： 
+1.首先安装微软的繁体语言包
+
+2.安装Agent时选择了繁体中文支持
+（没有选的，把Agent目录下的All_COD目录下的cp950.cod文件拷贝到Agent目录下后，重启一下Agent即可）。
+
+3.在Agent的Options<选项>菜单下面的GeneralPreferences<常规设置>项
+的Languages<语言>标签页下面Languages域的Add<添加>按钮按下后，
+添加一个名为big5的Languages项（based on English(American)<基于英语(美国)>），
+选中新建的此项big5，在下面的Code Page<字页码>、
+Default charset<默认字符集>里面都选Chinese (Traditional)codepage950，
+至于Send <Usenet, Email> as<发送新闻、Email使用>这两项是关于发送的，
+你自己看吧。设定好后，确定退出。
+这时，应该有不少big5码的帖子可以看了，但是对于未编码的big5码帖子还是乱码。
+
+4.在Agent的Options<选项>菜单下面的DisplayPreferences<显示设置>项的Fonts<字体>标签页的
+Fonts for the Language<语言字型>框选中在步骤3里建立的big5项，
+按动除了Browser<浏览器>以外的全部按钮
+（如果服务器上有big5码的新闻组名，可以把Browser<浏览器>按钮的字体也改为Mingliu），
+把字体都改为Mingliu（字号你自己看吧，我选12Pt），
+把最下面的Use the variable-pitch body font for
+Headers<消息标题使用调整消息内容字体>打上钩，确定退出。
+
+5.至此，你应该可以看到所有的big5码的帖子内容都可以正常显示了（当然是繁体），
+只是标题可能依然是乱码，如果你上的服务器或某个组都是big5的，
+那么在Agent的Group<讨论组>菜单下面的DefaultProperties<默认属性>
+（或选中相应的组，在Agent的Group菜单下面的Properties<属性>）项
+的Language<语言>标签页，把Language改成big5
+（如果是在Properties项，则先在OverrideDefaultSettings<覆盖默认设定>前打钩，再选）
+这时，所有的标题就会变成BIG5的了，对于同时存在的部分gb2312的（或其他内码的）帖子，
+标题部分可能会有乱码的，这是无法解决的，另外，
+所有同时存在的未定义字符集的帖子都会被默认为big5编码，
+可能会导致乱码，这似乎也没有办法。还有，
+这些组发送的帖子也将使用在步骤3里设定的big5的发送设定。
+
+如果你还上日文、韩文的新闻组，照以上办理即可，当然，
+你得安装日文、韩文的字体和Agent的相应解码支持。
+
+当然，你如果要发其他内码的帖子，你得用其他内码的输入法，Agent不提供内码转换。
+
+对于其他有问号的帖子，按Ctrl+h看到它的头，对于其charset=后面的名字建立一种语言
+（based on English(American)<基于英语(美国)>），比如ISO-8859-1、utf-8等等，
+在这种语言的Code Page、Default charset里面选择恰当的代码页、字符设定即可
+（ISO-8859-1要设置成Western Europe codepage1252）。
+除了内码不同，一般无需到Options菜单下面的DisplayPreferences项的Fonts标签页去更改字体的。
+当然，对于1.6版还不能解决HZ编码的问题，不过据说1.7版的解决了，但是我没有试过。
+
+对了，以上的说明只限于1.6版（含1.6）以上的Agent，1.5版的（需要自己编写big5.csm文件）
+和FreeAgent暂时没有办法解决，只能外用RichWinViewer（支持HZ码）、南极星之类的程序来解决了。

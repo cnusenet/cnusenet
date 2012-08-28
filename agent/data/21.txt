@@ -1,0 +1,35 @@
+online--catch up with selected groups命令有何用途? 
+这个命令的意思好像说出来,不大容易理解.我说说它的作用:
+
+
+当你上一个新的服务器时,在决定了订阅那些组后,如果按
+Get News Header In Subscribed Guoups,Agent会下载你订阅
+的讨论组的所有文章,有可能文章非常多(数千个),这没必要,通常
+只下载最近的两三百个就行了,所以应该用Shift+鼠标复选订阅的组
+然后选择Online-Sample Header Form Selected Groups,在对话框中
+填入适当的数目,按OK,Agent就会安照你定的数目去下载帖子.
+下载完后,不要下线,在那些讨论组仍在选择的情况下,选择:
+online-catch up with selected groups
+以后当你再次上线收帖子时,按Get News Header In Subscribed Guoups
+按钮时,Agent就不会下载以前的帖子,只下载新帖子了. 
+
+它的作用就是把你已经下载的帖子和没有下载的帖子,都标记为"已读"
+使你下次上线收新贴子时,只收执行这个命令以后发到服务器的新贴子.
+
+ 
+
+你说的是不是catch up后，原来老贴（catch up前）的新跟贴（ctch up后）也不会下载？ 
+
+不是,老贴(Catch Up前)的不会下载了,新跟贴(Catch Up后)的,在你上线 接收新Header时,会下载的! 
+如果又改变主意了,又要下载Catch Up前的老贴了,那么选择: Online--Get All Headers IN 
+Selected Groups.
+
+ 
+
+那我就不明白了。 我订新组，一般先SAMPLE（50），再GET NEW HEADERS。 和用CATCH UP结果一样：
+老贴下不了，新跟贴会下的。 这样一来，CATCH UP根本没有作用。 你说呢？
+
+你是在Online-Sample Header Form Selected Groups的对话框中选择了 Update record of headers 
+that have been retrieved 此选项起到的效果和Catch Up有些近似!所以你再Get New Headers时 不
+会下载老贴,可以用Online--Get All Headers IN Selected Groups. 来获得老贴!
+ 
