@@ -1,0 +1,105 @@
+Archive-Name: checkgroups.cn
+Posting-Frequency: monthly (21st of each month)
+
+This is the list, in checkgroups format, of all 98 currently valid newsgroups
+in the cn.* hierarchy.  A real checkgroups ctl msg is posted at this time, too.
+
+----8<--------8<--------8<--------8<--------8<--------8<--------8<----
+cn.admin				cn.*的管理讨论区
+cn.admin.doc				cn.*的管理--文档工作
+cn.announce				cn.*的一般性公告 (moderated)
+cn.answers				cn.*的精华版 (moderated)
+cn.binaries.arts.pictures		艺术图片,相片
+cn.campus				大学教育，校园生活
+cn.chat					闲聊组，海阔天空
+cn.chat.fallow				休闲闲聊组--snow组
+cn.chat.feeling				闲聊--情感
+cn.comp					计算机技术总组
+cn.comp.cad				计算机辅助设计技术
+cn.comp.certification			IT类的专业认证
+cn.comp.chinese				计算机中文处理技术
+cn.comp.database			数据库技术一般性讨论
+cn.comp.database.mysql			MySQL数据库技术
+cn.comp.database.oracle			Oracle数据库技术
+cn.comp.database.sybase			Sybase数据库技术
+cn.comp.games				计算机游戏
+cn.comp.graphics			计算机图形处理
+cn.comp.graphics.photoshop		图形处理--photoshop
+cn.comp.hacker				软件破解、黑客
+cn.comp.hardware			计算机硬件
+cn.comp.hardware.market			硬件市场行情
+cn.comp.internet			互联网技术
+cn.comp.irc				IRC聊天网络
+cn.comp.lang.asp			ASP语言
+cn.comp.lang.c				C语言
+cn.comp.lang.delphi			Delphi语言
+cn.comp.lang.java			JAVA语言
+cn.comp.lang.perl			Perl语言
+cn.comp.lang.php			PHP语言
+cn.comp.lang.vb				Visual Basic语言
+cn.comp.lang.vc				Visual C语言
+cn.comp.lang.xml			XML语言
+cn.comp.os.freebsd			FreeBSD操作系统
+cn.comp.os.linux			Linux操作系统
+cn.comp.os.win2000			Windows2K操作系统
+cn.comp.os.win9x			Windows9x操作系统
+cn.comp.os.winxp			WindowsXP操作系统
+cn.comp.programm			计算机--软件编程
+cn.comp.security			计算机安全技术
+cn.comp.software			计算机软件一般性讨论
+cn.comp.software.shareware		共享软件
+cn.comp.www				world wide web （万维网）
+cn.culture.arts.photo			摄影
+cn.culture.arts.poem			文学--诗词
+cn.culture.arts.story			故事会
+cn.culture.arts.story.ghost		故事--午夜怪谈
+cn.culture.buddhism			佛学
+cn.edu					教育机构
+cn.edu.goabroad				出国教育
+cn.edu.lang.english			英语学习
+cn.edu.self				自学考试
+cn.fan					爱好者
+cn.fan.auto				爱好者--汽车
+cn.fan.ham				爱好者--火腿
+cn.finance				财经、金融
+cn.finance.account			财会
+cn.finance.insurance			保险
+cn.finance.stock			股票、证券、市场行情
+cn.help					新闻组(usenet)使用帮助
+cn.local.bj				北京专区
+cn.local.gd				广东专区
+cn.local.js				江苏专区
+cn.local.sh				上海专区
+cn.local.zj				浙江专区
+cn.misc					杂项，一般性讨论
+cn.misc.forsale				出售、二手货、货物交换
+cn.misc.help				网上求助，你问我答
+cn.music				音乐
+cn.music.classical			古典音乐
+cn.music.pop				流行音乐
+cn.music.rock				摇滚
+cn.personal.mm				个人专区--梅梅
+cn.personal.small			个人专区--小猪
+cn.personal.tobby			个人专区--小蓝
+cn.rec					娱乐总组
+cn.rec.cartoon				娱乐--流行
+cn.rec.fashion				娱乐--卡通
+cn.rec.humor				幽默、笑话
+cn.rec.movies				电影
+cn.rec.riddles				谜语
+cn.rec.tv				电视
+cn.sci					自然科学总组
+cn.sci.biology				生物学
+cn.sci.chemistry			化学
+cn.sci.chemistry.polymers		高分子材料科学与工程
+cn.sci.math				数学
+cn.sci.medicine				医学
+cn.sci.physics				物理学
+cn.soc					社会科学总组
+cn.soc.history				历史
+cn.sports				体育
+cn.sports.basketball			篮球
+cn.sports.football			足球
+cn.talk.friends				谈天说地--朋友
+cn.telecom.mobile			通讯--手机
+cn.test					cn.*的测试组
